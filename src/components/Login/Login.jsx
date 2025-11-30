@@ -147,11 +147,11 @@ function Login() {
           {/* Terms and Privacy */}
           <p className="mt-6 text-center text-sm text-gray-400">
             By signing in, you agree to our{' '}
-            <a href="/login" className="text-purple-400 hover:text-purple-300">
+            <a href="/terms-conditions" className="text-purple-400 hover:text-purple-300">
               Terms of Service
             </a>{' '}
             and{' '}
-            <a href="/login" className="text-purple-400 hover:text-purple-300">
+            <a href="/privacy-policy" className="text-purple-400 hover:text-purple-300">
               Privacy Policy
             </a>
           </p>

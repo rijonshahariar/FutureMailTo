@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import './FAQ.css';
 function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -87,8 +87,8 @@ function FAQ() {
           ))}
         </div>
 
-        <div className="mt-20">
-          <div className="bg-gray-800 rounded-2xl border border-gray-700 p-8">
+        <div className="mt-20 bg-blue">
+          <div className="bg-gray-800 cardd rounded-2xl border border-gray-700 p-8">
             <div className="max-w-4xl mx-auto">
               <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                 <div className="flex-1">
@@ -99,12 +99,12 @@ function FAQ() {
                 </div>
                 <div className="lg:ml-8">
                   <div className="inline-flex items-center px-6 py-3 bg-gray-700/50 rounded-lg border border-gray-600">
-                    <svg className="w-5 h-5 text-orange-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-5 h-5 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                     <a 
                       href="mailto:support@futuremailto.us" 
-                      className="text-orange-500 hover:text-orange-400 transition-colors duration-300 font-medium text-lg"
+                      className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent transition-colors duration-300 font-medium text-lg"
                     >
                       support@futuremailto.us
                     </a>
