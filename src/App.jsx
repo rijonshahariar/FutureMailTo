@@ -15,6 +15,7 @@ import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'
 import TermsConditions from './components/TermsConditions/TermsConditions'
 import Contact from './components/Contact/Contact'
 import CookieConsentModal from './components/CookieConsent/CookieConsentModal'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import MessageSection from './components/MessageSection'
 import SuccessPage from './components/MessageComposer/SuccessPage';
 import AdminDashboard from './components/Admin/AdminDashboard';
@@ -25,6 +26,7 @@ import Review from './components/Review/Review';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <AuthProvider>
         <Routes>
           <Route path="/login" element={<Login />} />
