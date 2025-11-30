@@ -35,7 +35,7 @@ function FAQ() {
   };
 
   return (
-    <section className="py-32 bg-gray-900">
+    <section id="faq" className="py-32 bg-gray-900">
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
@@ -87,22 +87,31 @@ function FAQ() {
           ))}
         </div>
 
-        <div className="mt-20 text-center">
-          <div className="inline-flex items-center p-2 bg-gray-800 rounded-xl">
-            <span className="text-gray-400 px-6 text-lg">Still have questions?</span>
-            <a 
-              href="https://m.me/shahariar.rijon.wd" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-8 py-3 text-lg font-medium
-                bg-gradient-to-r from-cyan-400 to-purple-500 
-                hover:from-purple-500 hover:to-cyan-400
-                text-gray-900 rounded-lg transition-all duration-300
-                hover:shadow-[0_0_20px_rgba(139,92,246,0.3)]
-                active:scale-95"
-            >
-              Chat With Developer
-            </a>
+        <div className="mt-20">
+          <div className="bg-gray-800 rounded-2xl border border-gray-700 p-8">
+            <div className="max-w-4xl mx-auto">
+              <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+                <div className="flex-1">
+                  <h3 className="text-3xl font-bold text-white mb-3">Get in Touch</h3>
+                  <p className="text-gray-300 text-lg leading-relaxed">
+                    Have questions or feedback? Drop us an email anytime. We're always happy to hear from you!
+                  </p>
+                </div>
+                <div className="lg:ml-8">
+                  <div className="inline-flex items-center px-6 py-3 bg-gray-700/50 rounded-lg border border-gray-600">
+                    <svg className="w-5 h-5 text-orange-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <a 
+                      href="mailto:support@futuremailto.us" 
+                      className="text-orange-500 hover:text-orange-400 transition-colors duration-300 font-medium text-lg"
+                    >
+                      support@futuremailto.us
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

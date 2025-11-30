@@ -23,7 +23,6 @@ function Hero() {
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
       <div className="absolute inset-0 bg-grid-pattern opacity-[0.03]"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(139,92,246,0.1),rgba(99,102,241,0.05))]"></div>
       
       <div ref={titleRef} className="text-center px-8 py-16 max-w-5xl mx-auto opacity-0">
         <div className="relative">
