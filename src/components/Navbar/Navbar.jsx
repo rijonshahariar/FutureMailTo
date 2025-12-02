@@ -185,6 +185,9 @@ function Navbar() {
             <Link to="/faq" className="nav-link group">
               <span className="relative text-lg">FAQ</span>
             </Link>
+            <Link to="/blog" className="nav-link group">
+              <span className="relative text-lg">Blog</span>
+            </Link>
             <Link to="/contact" className="nav-link group">
               <span className="relative text-lg">Contact</span>
             </Link>
@@ -249,6 +252,13 @@ function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <span className="relative text-lg">FAQ</span>
+            </Link>
+            <Link
+              to="/blog"
+              className="nav-link group py-2"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <span className="relative text-lg">Blog</span>
             </Link>
             <Link
               to="/contact"

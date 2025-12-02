@@ -16,6 +16,9 @@ import TermsConditions from './components/TermsConditions/TermsConditions'
 import Contact from './components/Contact/Contact'
 import CookieConsentModal from './components/CookieConsent/CookieConsentModal'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import BlogList from './components/Blog/BlogList'
+import BlogPost from './components/Blog/BlogPost'
+import BlogSection from './components/Blog/BlogSection'
 import MessageSection from './components/MessageSection'
 import SuccessPage from './components/MessageComposer/SuccessPage';
 import AdminDashboard from './components/Admin/AdminDashboard';
@@ -60,6 +63,7 @@ function App() {
                 <MessageComposer />
                 <MessageSection />
                 <Features />
+                <BlogSection />
                 <FAQ />
               </div>
               <Footer />
@@ -72,6 +76,8 @@ function App() {
           <Route path="/privacy-policy" element={<><Navbar /><PrivacyPolicy /><Footer /></>} />
           <Route path="/terms-conditions" element={<><Navbar /><TermsConditions /><Footer /></>} />
           <Route path="/contact" element={<><Navbar /><Contact /><Footer /></>} />
+          <Route path="/blog" element={<><Navbar /><BlogList /><Footer /></>} />
+          <Route path="/blog/:slug" element={<><Navbar /><BlogPost /><Footer /></>} />
           <Route path="/success" element={<>
             <Navbar />
             <SuccessPage />
