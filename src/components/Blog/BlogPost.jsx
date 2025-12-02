@@ -145,7 +145,7 @@ function BlogPost() {
         {/* Back to Blog */}
         <Link
           to="/blog"
-          className="inline-flex items-center text-gray-400 hover:text-cyan-400 mb-8 transition-colors"
+          className="inline-flex mt-5 items-center text-gray-400 hover:text-cyan-400 mb-8 transition-colors"
         >
           <svg
             className="mr-2 w-5 h-5"
