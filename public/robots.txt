@@ -1,17 +1,18 @@
 # Robots.txt for FutureMailTo
-# https://futuremailto.com
+# https://futuremailto.us
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://futuremailto.com/sitemap.xml
+Sitemap: https://futuremailto.us/sitemap.xml
 
 # Disallow admin and private routes
 Disallow: /admin
 Disallow: /dashboard
 Disallow: /profile
-Disallow: /user-profile
+Disallow: /review
+Disallow: /success
 
 # Allow search engines to crawl all public pages
 Allow: /about
